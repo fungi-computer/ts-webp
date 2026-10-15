@@ -1,0 +1,35 @@
+{
+  "name": "@fungi.computer/ts-webp",
+  "version": "0.1.6",
+  "description": "Fork of @stacksjs/ts-webp 0.1.6 with NodeNext-resolvable ESM imports and declarations",
+  "type": "module",
+  "license": "MIT",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "24.13.3",
+    "bun-types": "1.4.1",
+    "typescript": "5.9.3"
+  },
+  "botanical": {
+    "role": "package",
+    "operations": {
+      "build": "required",
+      "typecheck": "required"
+    }
+  }
+}

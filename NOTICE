@@ -1,0 +1,14 @@
+@fungi.computer/ts-webp
+Copyright (c) Chris Breuer and the Stacks.js contributors (upstream
+@stacksjs/ts-webp, MIT; see LICENSE)
+
+This package is a fork of @stacksjs/ts-webp (https://github.com/stacksjs/ts-webp)
+at the v0.1.6 release commit dfd79c9. Upstream ships no LICENSE file; its
+package.json and README declare MIT, and LICENSE here carries the standard MIT
+text for that grant.
+
+The source is unchanged except that every relative import names its `.js`
+file, and the package builds with tsc for NodeNext. Upstream's published
+declarations omit those extensions, so under NodeNext resolution its exports
+do not resolve and their types degrade to `any`.
+Drop this fork when upstream publishes NodeNext-resolvable declarations.
