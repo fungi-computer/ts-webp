@@ -1,6 +1,7 @@
 {
   "name": "@fungi.computer/ts-webp",
   "version": "0.1.6",
+  "author": "Levi <levi@technomancy.dev>",
   "description": "Fork of @stacksjs/ts-webp 0.1.6 with NodeNext-resolvable ESM imports and declarations",
   "type": "module",
   "license": "MIT",
