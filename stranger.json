@@ -1,0 +1,87 @@
+{
+  "expectedTarballFiles": [
+    "package/LICENSE",
+    "package/NOTICE",
+    "package/README.md",
+    "package/dist/alpha.d.ts",
+    "package/dist/alpha.js",
+    "package/dist/animation.d.ts",
+    "package/dist/animation.js",
+    "package/dist/bitreader.d.ts",
+    "package/dist/bitreader.js",
+    "package/dist/decoder.d.ts",
+    "package/dist/decoder.js",
+    "package/dist/encoder-cli.d.ts",
+    "package/dist/encoder-cli.js",
+    "package/dist/encoder.d.ts",
+    "package/dist/encoder.js",
+    "package/dist/index.d.ts",
+    "package/dist/index.js",
+    "package/dist/riff.d.ts",
+    "package/dist/riff.js",
+    "package/dist/types.d.ts",
+    "package/dist/types.js",
+    "package/dist/vp8/bool-decoder.d.ts",
+    "package/dist/vp8/bool-decoder.js",
+    "package/dist/vp8/bool-encoder.d.ts",
+    "package/dist/vp8/bool-encoder.js",
+    "package/dist/vp8/coeff.d.ts",
+    "package/dist/vp8/coeff.js",
+    "package/dist/vp8/decoder.d.ts",
+    "package/dist/vp8/decoder.js",
+    "package/dist/vp8/encoder.d.ts",
+    "package/dist/vp8/encoder.js",
+    "package/dist/vp8/fdct.d.ts",
+    "package/dist/vp8/fdct.js",
+    "package/dist/vp8/header.d.ts",
+    "package/dist/vp8/header.js",
+    "package/dist/vp8/idct.d.ts",
+    "package/dist/vp8/idct.js",
+    "package/dist/vp8/intra.d.ts",
+    "package/dist/vp8/intra.js",
+    "package/dist/vp8/loop-filter.d.ts",
+    "package/dist/vp8/loop-filter.js",
+    "package/dist/vp8/mode.d.ts",
+    "package/dist/vp8/mode.js",
+    "package/dist/vp8/quant-enc.d.ts",
+    "package/dist/vp8/quant-enc.js",
+    "package/dist/vp8/tables.d.ts",
+    "package/dist/vp8/tables.js",
+    "package/dist/vp8l/color-index.d.ts",
+    "package/dist/vp8l/color-index.js",
+    "package/dist/vp8l/color.d.ts",
+    "package/dist/vp8l/color.js",
+    "package/dist/vp8l/decoder.d.ts",
+    "package/dist/vp8l/decoder.js",
+    "package/dist/vp8l/distance.d.ts",
+    "package/dist/vp8l/distance.js",
+    "package/dist/vp8l/encoder.d.ts",
+    "package/dist/vp8l/encoder.js",
+    "package/dist/vp8l/huffman.d.ts",
+    "package/dist/vp8l/huffman.js",
+    "package/dist/vp8l/length.d.ts",
+    "package/dist/vp8l/length.js",
+    "package/dist/vp8l/predictor.d.ts",
+    "package/dist/vp8l/predictor.js",
+    "package/package.json"
+  ],
+  "consumerDevDependencies": {
+    "@types/node": "24.13.3"
+  },
+  "runtimeFixture": "test/stranger/runtime.mjs",
+  "typechecks": [
+    {
+      "fixture": "test/stranger/consumer.mts",
+      "environment": {
+        "types": [
+          "node"
+        ],
+        "lib": [
+          "ESNext",
+          "DOM",
+          "DOM.Iterable"
+        ]
+      }
+    }
+  ]
+}
